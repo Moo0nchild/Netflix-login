@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="icon" href="Assets/Logo1.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <header>
+        <img src="Assets/Logo2.png" alt="#" class="logo" />
+      </header>
+
+      <main>
+        <div class="container">
+          <h2>Inicia sesión</h2>
+          <div class="inputs">
+            <input
+              type="text"
+              placeholder="Email o número de teléfono"
+              id="email-user"
+              name="email-user_be"
+              required
+            />
+            <ion-icon
+              id="icon"
+              onclick="SeePassword()"
+              name="eye-off-outline"
+              class="ojo"
+            ></ion-icon>
+            <input
+              type="password"
+              placeholder="Contraseña"
+              id="password-user"
+              name="password_be"
+              required
+            />
+            <button class="btn-iniciar-sesion">Iniciar sesión</button>
+            <p class="o">O</p>
+            <button class="btn-codigo">
+              Usar un código de inicio de sesión
+            </button>
+            <a href="#">¿Olvidaste la contraseña?</a>
+          </div>
+
+          <div class="recuerdame">
+            <input type="checkbox" name="#" id="#" />
+            <p>Recuérdame</p>
+          </div>
+          <p class="primeravez">
+            ¿Primera vez en Netflix?<a href="" class="pveza">
+              Suscríbete ahora.</a
+            >
+          </p>
+          <p class="captcha">
+            Esta página está protegida por Google reCAPTCHA para comprobar que
+            no eres un robot. <a href="" class="info">Más info.</a>
+          </p>
+        </div>
+      </main>
+
+      <footer>
+        <p class="footerp">
+          ¿Preguntas? Llama al <a href="" class="number">01 800 917 1564</a>
+        </p>
+        <div class="footer-row">
+          <div class="links">
+            <ul>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Preferencia de cookies</a></li>
+              <select name="#" id="#" class="selector">
+                <option value="Español">Español</option>
+                <option value="English">English</option>
+              </select>
+            </ul>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#">Centro de ayuda</a></li>
+              <li><a href="#">Información corporativa</a></li>
+            </ul>
+          </div>
+
+          <div class="links">
+            <ul>
+              <li><a href="#">Términos de uso</a></li>
+            </ul>
+          </div>
+          <div class="links">
+            <ul>
+              <li><a href="#">Privacidad</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script src="script.js"></script>
+</html>

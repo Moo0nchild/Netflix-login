@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: url('Assets/Netflixbgdarked.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 80px;
+    width: 940px;
+}
+
+.logo {
+    width: 180px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 700px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: none;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    padding: 30px 0px 30px 0px;
+
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h2 {
+    /* text-align: left; */
+    /* margin-right: 100px; */
+    width: 65%; /* Esto es una prueba nojoa */
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.inputs input {
+   height: 50px; 
+   width: 300px;
+   border: solid 1px gray;
+   border-radius: 5px;
+   padding-left: 15px;
+   font-size: 16px;
+   background: none;
+   color: white;
+}
+
+.inputs input:focus {
+    border: solid 3px white;
+}
+
+.btn-iniciar-sesion {
+    height: 50px;
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-bottom: -3px;
+}
+
+.btn-iniciar-sesion:hover {
+    background-color: rgb(175, 0, 0);
+    cursor: pointer;
+}
+
+.btn-codigo {
+    height: 50px;
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343434;
+    color: white;
+    font-size: 16px;
+    margin-top: -3px;
+}
+
+.btn-codigo:hover {
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+
+.inputs p {
+    color: #343434; /* REVISAR */
+    font-size: 16px;
+}
+
+.inputs a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.inputs a:hover {
+    text-decoration: underline;
+    color: #343434;
+}
+
+.o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+}
+
+.recuerdame {
+    font-size: 16px;
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-right: 190px;
+    margin-bottom: 15px;
+}
+
+.recuerdame input {
+    width: 18px;
+    height: 18px;
+}
+
+.primeravez {
+    color: gray;
+}
+
+.pveza {
+    color: white;
+    text-decoration: none;
+}
+
+.pveza:hover {
+    text-decoration: underline;
+}
+
+.captcha {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 35px;
+    margin-top: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+.info {
+    text-decoration: none;
+}
+
+.info:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-row {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 70px;
+    gap: 100px;
+}
+
+.links {
+    padding: 0 15px;
+}
+
+.footerp {
+    position: absolute;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 135px;
+}
+
+.links ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.links ul li a {
+    color: gray;
+    font-size: 14px;
+}
+
+.number {
+    color: gray;
+    text-decoration: none;
+}
+
+.number:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.selector {
+    border: solid 1px gray;
+    background: rgba(0, 0, 0, 0.7);
+    width: 130px;
+    height: 35px;
+    color: white;
+    padding-left: 15px;
+}
+
+.ojo {
+    position: absolute;
+    color: gray;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-bottom: 155px;
+
+    /* right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px; */
+}
+
+
+
+
